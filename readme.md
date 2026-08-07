@@ -23,20 +23,6 @@ I have experience across three key areas of any modern business: **Marketing, De
 Additional skills applied to client project work (not necessarily used on this site itself): **PHP** and **WordPress** development.
 
 
-## Running Locally
-
-Since this is a static site, no build step is required:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-2. Open `index.html` directly in your browser, or serve it locally, e.g.:
-   ```bash
-   npx serve .
-   ```
-
 ## Deployment
 
 The site is deployed via **GitHub Pages**. Any push to the main branch (or the branch configured under **Settings → Pages**) updates the live site automatically.
