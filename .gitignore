@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+mockups/
+mockups.config.json
+mockups.md
+package-lock.json
+package.json
+scripts/

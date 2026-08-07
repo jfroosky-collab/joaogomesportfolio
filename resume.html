@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | João Gomes</title>
+    <link rel="stylesheet" href="assets/css/animate-min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-body">
+<my-header></my-header>
+<my-header-mobile></my-header-mobile>
+
+<main class="page-shell resume-page">
+    <section class="page-hero resume-hero animate__animated animate__fadeIn">
+        <span class="page-kicker">Resume</span>
+        <div class="page-hero-grid">
+            <div>
+                <h1>Debug the page. Unlock the CV.</h1>
+            </div>
+            <div class="resume-hero-copy">
+                <p>Before downloading my Resume, debug this page. 5 bugs successfuly removed, and the download will be unlocked.</p>
+                <a class="button-link resume-download is-locked" href="assets/cv-english-website.pdf" download aria-disabled="true">
+                    Download CV
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 3v12"/>
+                        <path d="m7 10 5 5 5-5"/>
+                        <path d="M5 21h14"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume-game" aria-labelledby="resume-game-title">
+        <div class="resume-game-panel">
+            <div class="resume-game-head">
+                <div>
+                    <span class="page-kicker">Mini-Game</span>
+                    <h2 id="resume-game-title">Bug Hunt</h2>
+                </div>
+                <div class="resume-score" aria-live="polite">
+                    <span id="bugs-fixed">0</span><small>/5 bugs</small>
+                </div>
+            </div>
+
+            <div class="resume-progress" aria-hidden="true">
+                <span id="resume-progress-bar"></span>
+            </div>
+
+            <div class="bug-arena" id="bug-arena" aria-label="Game Area= Click on the bugs, to unlock my Resume">
+                <p class="bug-status" id="bug-status">Click Start and prepare yourself.</p>
+            </div>
+
+            <div class="resume-game-actions">
+                <button class="button-link resume-start" id="resume-start" type="button">
+                    Start
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <button class="resume-reset" id="resume-reset" type="button">Reset</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css">
+<script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script> 
+<script>new Lenis({ autoRaf: true, autoToggle: true, anchors: true, allowNestedScroll: true, naiveDimensions: true, stopInertiaOnNavigate: true })</script>
+<script src="template-parts/header.js"></script>
+<script src="template-parts/headermobile.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/resume-game.js"></script>
+</body>
+</html>
