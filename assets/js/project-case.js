@@ -188,7 +188,7 @@ class ProjectCase extends HTMLElement {
 
                 <nav class="case-next" aria-label="Project navigation">
                     <span>Next project</span>
-                    <a href="${project.next}">${project.nextTitle}<i aria-hidden="true">↗</i></a>
+                    <a href="${project.next}">${project.nextTitle}<span class="material-symbols-outlined"> arrow_forward_ios </span></a>
                 </nav>
             </main>
         `;
