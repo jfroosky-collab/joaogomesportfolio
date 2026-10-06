@@ -81,6 +81,24 @@ const projectCases = {
         technologies: ["WordPress", "PHP", "HTML", "CSS", "JavaScript", "Responsive Design"],
         next: "project-e-commerce-3.html",
         nextTitle: "e-Commerce 3"
+    },
+    "website-6": {
+        number: "10",
+        title: "Website 6",
+        type: "Booking website",
+        summary: "A custom WordPress booking website built with Elementor Free. Custom Elementor templates are injected with PHP, while shortcodes provide dynamic content. A JavaScript integration with Beds24 populates the booking form and passes its values as URL parameters to the Beds24 checkout.",
+        technologies: ["WordPress", "Elementor Free", "Custom PHP Templates", "Shortcodes", "JavaScript", "Beds24 Integration"],
+        next: "project-e-commerce-3.html",
+        nextTitle: "e-Commerce 3"
+    },
+    "e-commerce-5": {
+        number: "11",
+        title: "e-Commerce 5",
+        type: "Customised product eCommerce",
+        summary: "A WooCommerce store built with Elementor Free, custom PHP files and a tailored CSS theme. A custom plugin lets customers upload artwork and customise products in selected categories, adding the personalisation cost to the product price.",
+        technologies: ["WordPress", "WooCommerce", "Elementor Free", "Custom PHP", "Custom CSS Theme", "Custom Plugin"],
+        next: "project-e-commerce-3.html",
+        nextTitle: "e-Commerce 3"
     }
 };
 
